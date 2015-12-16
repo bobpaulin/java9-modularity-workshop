@@ -1,0 +1,25 @@
+apply plugin: 'java'
+
+compileJava {
+        options.fork = true
+        options.forkOptions.executable = "C:\\Program Files\\Java\\jdk1.9.0\\bin\\javac.exe"
+}
+sourceSets {
+    main.java.srcDir 'src'
+}
+
+task sourceSetProperties << {
+        sourceSets {
+                main {
+                        println "java.srcDirs = ${java.srcDirs}"
+                        println "resources.srcDirs = ${resources.srcDirs}"
+                        println "java.files = ${java.files.name}"
+                        println "allJava.files = ${allJava.files.name}"
+                        println "resources.files = ${resources.files.name}"
+                        println "allSource.files = ${allSource.files.name}"
+                        println "output.classesDir = ${output.classesDir}"
+                        println "output.resourcesDir = ${output.resourcesDir}"
+                        println "output.files = ${output.files}"
+                }
+        }
+}
