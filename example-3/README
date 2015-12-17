@@ -11,3 +11,6 @@ Putting an application together with Java 9 Modules
 
 5) Run module
 "c:\Program Files\Java\jdk1.9.0\bin\java.exe" -mp mlib -m module4/com.bobpaulin.modularity.mod4.Mod4 Bob
+
+6) Create your own runtime with jlink
+"c:\Program Files\Java\jdk1.9.0\bin\jlink.exe" --modulepath "c:\Program Files\Java\jdk1.9.0\jmods";mlib --addmods module4 commons.lang3 --output example3

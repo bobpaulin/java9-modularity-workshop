@@ -9,3 +9,4 @@ Build a module from an existing project.
 3) Move module1 and module2 under src folder
 4) build with Gradle
 5) Run executable
+"c:\Program Files\Java\jdk1.9.0\bin\java.exe" -mp mods -m module2/com.bobpaulin.modularity.mod2.Mod2s
