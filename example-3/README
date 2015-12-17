@@ -1,0 +1,13 @@
+Putting an application together with Java 9 Modules
+
+1) Move commons.lang3.jar to mlib directory
+
+2) Verify module-info.java
+
+3) Build with gradle
+
+4) Jar up Module
+"c:\Program Files\Java\jdk1.9.0\bin\jar.exe" --create --file mlib\module4.jar -C mods\module4 .
+
+5) Run module
+"c:\Program Files\Java\jdk1.9.0\bin\java.exe" -mp mlib -m module4/com.bobpaulin.modularity.mod4.Mod4 Bob

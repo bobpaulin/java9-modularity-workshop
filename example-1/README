@@ -1,1 +1,10 @@
 Build a module from an existing project.
+
+0) Verify programs run.  Build with build1.gradle and run:
+"c:\Program Files\Java\jdk1.9.0\bin\java.exe" -cp build\libs\example-1.jar com.bobpaulin.modularity.mod1.Mod1
+"c:\Program Files\Java\jdk1.9.0\bin\java.exe" -cp build\libs\example-1.jar com.bobpaulin.modularity.mod2.Mod2
+
+1) Split the com.bobpaulin.modularity.mod1 and com.bobpaulin.modularity.mod2 packages into different folders
+2) Verify module-info.java
+3) build with Gradle
+4) Run executable

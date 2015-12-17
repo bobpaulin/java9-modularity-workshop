@@ -1,0 +1,20 @@
+plugins {
+    id 'jvm-component'
+    id 'java-lang'
+}
+
+model {
+    components {
+        module1(JvmLibrarySpec) {
+            sources {
+                java {
+                    source.srcDir 'src/module1/java'
+                }
+            }
+            api {
+               exports 'removeme'
+               //exports 'com.bobpaulin.modularity.gradle.module1'
+            }
+        }
+    }
+}

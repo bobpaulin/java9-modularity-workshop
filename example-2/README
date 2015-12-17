@@ -1,0 +1,12 @@
+Converting an existing library to Java 9 Module2
+
+1) Run jdeps
+"c:\Program Files\Java\jdk1.9.0\bin\jdeps.exe" -genmoduleinfo src *.jar
+
+2) Compile module-info.java
+"c:\Program Files\Java\jdk1.9.0\bin\javac.exe" src\commons.lang3\module-info.java
+
+3) Unzip class files into directory
+
+4) Jar up classes with module-info.class
+"c:\Program Files\Java\jdk1.9.0\bin\jar.exe" --create --file mlib/commons-lang3.jar -C mods\commons.lang3 .
