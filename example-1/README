@@ -6,5 +6,6 @@ Build a module from an existing project.
 
 1) Split the com.bobpaulin.modularity.mod1 and com.bobpaulin.modularity.mod2 packages into different folders
 2) Verify module-info.java
-3) build with Gradle
-4) Run executable
+3) Move module1 and module2 under src folder
+4) build with Gradle
+5) Run executable
