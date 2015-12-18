@@ -1,0 +1,7 @@
+#Thu Dec 17 19:24:50 CST 2015
+OS_VERSION="5.2"
+JAVA_VERSION="1.9.0"
+OS_NAME="Windows"
+SOURCE=" .\:6c81b27fe725 bdb\:8ff6e91a0455 closed\:73e67d7db434 corba\:5bb265a8aef1 deploy\:a91c4ec1c644 hotspot\:94ae06d1ae14 hotspot/make/closed\:5bb1f7c708e0 hotspot/src/closed\:940f6916cced hotspot/test/closed\:6b4df3f94341 install\:963edf56c429 jaxp\:f82941b0ca11 jaxws\:a35191505da9 jdk\:9fdbe1e7defa jdk/make/closed\:dfa4124882fc jdk/src/closed\:fff982396e4a jdk/test/closed\:f05ca40419e4 langtools\:beb7abe6410d nashorn\:3529de7a283c pubs\:a89e60a1ee29 sponsors\:71454421388f"
+OS_ARCH="amd64"
+MODULES=java.base,commons.lang3,module4

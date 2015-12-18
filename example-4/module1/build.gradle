@@ -12,8 +12,7 @@ model {
                 }
             }
             api {
-               exports 'removeme'
-               //exports 'com.bobpaulin.modularity.gradle.module1'
+               exports 'com.bobpaulin.modularity.gradle.module1'
             }
         }
     }
